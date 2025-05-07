@@ -1,2 +1,28 @@
+# Download tcplotter v0.3.10
 wget https://github.com/HUGG/tcplotter/archive/refs/tags/v0.3.10.tar.gz
 tar zxvf v0.3.10.tar.gz
+mv tcplotter-v0.3.10 tcplotter
+rm -rf v0.3.10.tar.gz
+
+# Download the latest tc1d commit
+wget https://github.com/HUGG/tc1d/archive/fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
+tar zxvf fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
+mv TC1D-fdd3ddf9af829fda2ae833820f6e6a94b0cfe227 tc1d
+rm -rf fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
+
+# Compile RDAAM_He and ketch_aft codes
+# Compile codes for (U-Th)/He and FT age prediction
+cd tc1d/ketch_aft
+make; make install
+cd ..
+cd RDAAM_He
+make; make install
+cd ../..
+
+# Compile codes for tcplotter (U-Th)/He and FT age prediction
+cd tcplotter/tcplotter/src/ketch_aft
+make; make install
+cd ..
+cd RDAAM_He
+make; make install
+cd ../../../..
