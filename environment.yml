@@ -1,0 +1,10 @@
+name: thermochron-binder
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - scipy
+  - IPython
+  - scikit-learn
+  - neighpy
