@@ -5,10 +5,10 @@ mv tcplotter-0.3.10 tcplotter
 rm -rf v0.3.10.tar.gz
 
 # Download the latest tc1d commit
-wget https://github.com/HUGG/tc1d/archive/fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
-tar zxvf fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
-mv TC1D-fdd3ddf9af829fda2ae833820f6e6a94b0cfe227 tc1d
-rm -rf fdd3ddf9af829fda2ae833820f6e6a94b0cfe227.tar.gz
+wget https://github.com/HUGG/tc1d/archive/6fab0e0a7c495d3e088352e6eb5f0d52c0aa5a36.tar.gz
+tar zxvf 6fab0e0a7c495d3e088352e6eb5f0d52c0aa5a36.tar.gz
+mv TC1D-6fab0e0a7c495d3e088352e6eb5f0d52c0aa5a36 tc1d
+rm -rf 6fab0e0a7c495d3e088352e6eb5f0d52c0aa5a36.tar.gz
 
 # Compile RDAAM_He and ketch_aft codes
 # Compile codes for (U-Th)/He and FT age prediction
