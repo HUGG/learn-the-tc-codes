@@ -1,0 +1,2 @@
+wget https://github.com/HUGG/tcplotter/archive/refs/tags/v0.3.10.tar.gz
+tar zxvf v0.3.10.tar.gz
