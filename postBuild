@@ -1,7 +1,7 @@
 # Download tcplotter v0.3.10
 wget https://github.com/HUGG/tcplotter/archive/refs/tags/v0.3.10.tar.gz
 tar zxvf v0.3.10.tar.gz
-mv tcplotter-v0.3.10 tcplotter
+mv tcplotter-0.3.10 tcplotter
 rm -rf v0.3.10.tar.gz
 
 # Download the latest tc1d commit
