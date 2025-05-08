@@ -4,7 +4,7 @@ This repository is designed to allow you to learn how to use the T<sub>c</sub>pl
 
 ## Meet T<sub>c</sub>plotter
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HUGG/learn-the-tc-codes/HEAD?urlpath=%2Fdoc%2Ftree%2Fmeet_tcplotter.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HUGG/learn-the-tc-codes/HEAD?urlpath=%2Fdoc%2Flab%2Fmeet_tcplotter.ipynb)
 
 Click the button above to meet T<sub>c</sub>plotter.
 
@@ -15,7 +15,7 @@ Click the button above to meet T<sub>c</sub>plotter.
 
 ## Meet T<sub>c</sub>1D
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HUGG/learn-the-tc-codes/HEAD?urlpath=%2Fdoc%2Ftree%2Fmeet_tc1d.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HUGG/learn-the-tc-codes/HEAD?urlpath=%2Fdoc%2Flab%2Fmeet_tc1d.ipynb)
 
 Click the button above to meet T<sub>c</sub>1D
 
